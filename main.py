@@ -16,8 +16,8 @@ def main():
     result_steps3 = []
     result_nodecount3 = []
     # Test h3
-    """
-    puzzle = Puzzle(puzzleSize, True)
+    
+    """puzzle = Puzzle(puzzleSize, True)
     a = Astar(puzzle, 0)
     print(puzzle)
     steps, nc = a.solve3()
@@ -29,8 +29,8 @@ def main():
     result_nodecount2 = []
     result_steps1 = []
     result_nodecount1 = []
-    for x in range(25):
-        print("Progress: {}%".format(int((x / 25) * 100)))
+    for x in range(100):
+        print("Progress: {}%".format(int((x / 100) * 100)))
         puzzle = Puzzle(puzzleSize, True)
         print(puzzle)
         a = Astar(puzzle, 0)
